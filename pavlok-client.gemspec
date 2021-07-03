@@ -1,21 +1,16 @@
 # frozen_string_literal: true
 
-require_relative "lib/pavlok/client/version"
-
 Gem::Specification.new do |spec|
   spec.name          = "pavlok-client"
-  spec.version       = Pavlok::Client::VERSION
+  spec.version       = "0.1.0"
   spec.authors       = ["Azmat Rana"]
   spec.email         = ["azmat.rana01@gmail.com"]
 
   spec.summary       = "Ruby SDK for Pavlok"
   spec.description   = "Ruby SDK for Pavlok"
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/azmatrana/pavlok-client"
   spec.license       = "MIT"
   spec.required_ruby_version = ">= 2.4.0"
-
-  spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
-
   spec.metadata["homepage_uri"] = spec.homepage
 
   # Specify which files should be added to the gem when it is released.

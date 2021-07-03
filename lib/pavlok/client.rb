@@ -1,7 +1,3 @@
-# frozen_string_literal: true
-
-require_relative "client/version"
-
 module Pavlok
   class PavlokExceptions < StandardError
     attr_reader :detail
